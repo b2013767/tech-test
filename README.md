@@ -19,4 +19,4 @@ All code required is in the folder. I do request that the document root of the p
 To protect the application code the document root has been set to the public folder. HTML tags have been stripped from all data that is posted to the text file, so users cannot manipulate the front end.
 
 ## Testing
-Unfortunetly i did not get the opportunity to set up any Unit testing on the application. If i did i would look at using phpUnit. I believe following a framework would have made this easier to acheive. 
+Unfortunately i did not get the opportunity to set up any Unit testing on the application. If i did i would look at using phpUnit. I believe following a framework would have made this easier to acheive. 
