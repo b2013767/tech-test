@@ -1,0 +1,6 @@
+form td{
+    padding:5px;
+}
+form input[type="submit"]{
+    margin:5px;
+}
