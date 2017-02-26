@@ -2,32 +2,21 @@
 
 ## Introduction
 
-Welcome to the Sky Betting & Gaming Technical Test!
-
-We hope that you find this exercise fun. There are no trick questions; we want to see your solution to a simple problem with well thought-out and well structured code.
+Welcome to my web application to submit results from the provided html form into a JSON text file. 
 
 
-## The Brief
+## Choice of Technologies
 
-The aim of this exercise is to create a server-side form handler in the language of your choice, to load and save data from our supplied HTML form.
+Originally I was going to develop the application in C# following a .Net framework as this is a technology I am far more familiar with. However with the experience I have in PHP I was able to develop the application and follow a similar architectural layout as ones I have knowledge in .net. I chose not to use a PHP framework to best demonstrate my skills and understanding of MVC, however this did lead to further challenges down the line.
 
-The main functionality required is a simple update capability against the existing records. Other CRUD functions could be added if you have time. In order to validate this functionality, you should include an appropriate level of test coverage.
 
-For a datastore, your application should just read from and write to a file on disk, rather than use a relational/noSQL solution.
+## Installation
 
-We leave it to you to decide how to transmit the data between the client and the server. Any client-side code should maintain the same principles as the server-side code.
+All code required is in the folder. I do request that the document root of the project is in the public folder of the project. This was done for security to protect all code in the root folder.
 
-You should use engineering best practices where appropriate. Principles we value include: security, performance, readability, testability, scalability, simplicity. You should also aim to achieve a clean separation of concerns between components of your solution; using the MVC pattern, for example.
+## Security
 
-## The Deliverable
+To protect the application code the document root has been set to the public folder. HTML tags have been stripped from all data that is posted to the text file, so users cannot manipulate the front end.
 
-* A bundled/archived repository showing your commit history or a link to an accessible private repository with your work in (Github can host private repositories at a cost; there is no charge for doing so with Bitbucket). You could fork this repo in git, but any VCS is fine. Git example for sending us a standalone bundle:
-
-        git bundle create <yourname>.bundle --all --branches
-
-* A covering note explaining the technology choices you have made.
-* Any instructions required to run your solution and tests in a Linux environment.
-
-## The Markup
-
-An example of the initial HTML form is [provided in this repository](markup.html).
+## Testing
+Unfortunetly i did not get the opportunity to set up any Unit testing on the application. If i did i would look at using phpUnit. I believe following a framework would have made this easier to acheive. 
