@@ -12,7 +12,7 @@ Originally I was going to develop the application in C# following a .Net framewo
 
 ## Installation
 
-All code required is in the folder. I do request that the document root of the project is in the public folder of the project. This was done for security to protect all code in the root folder.
+All code required is in the folder. I do request that the document root of the project is in the public folder of the project. This was done for security to protect all code in the root folder. To set up with XAMPP, add folder to htdocs. Navigate to folder/public on CLI and $ php -S localhost:8080 to run application. Head to http://localhost:8080 on browser.
 
 ## Security
 
